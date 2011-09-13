@@ -378,6 +378,7 @@ header {
 .about { 
   font-size: 24px;
   line-height: 30px;
+  clear: both;
   }
   .about p {
     float: left;
@@ -388,6 +389,18 @@ header {
     padding-left: 0; 
     width: 405px;
   }
+
+.facebok-comment {
+	padding: 35px 0 0;
+	
+	display: block;
+	clear: both;
+	background: url('../images/stars.png') center 0 repeat-x transparent;
+	}
+		.facebok-comment .bg{ 
+			background: rgba(255,255,255,0.7);
+			padding: 30px;	
+		}
 
 footer {
   padding-bottom: 25px;
