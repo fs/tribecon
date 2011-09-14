@@ -10,6 +10,11 @@ $(function() {
       }
     return false;
     });
+	
+	$('.facebok-comment h3').click(function(){
+        $('.facebok-comment .bg').slideToggle('fast');
+    return false;
+    });
 });
 
 

@@ -401,22 +401,33 @@ header {
 	}
 		.facebok-comment h3 {
 			font-size: 33px;
-			line-height: 33px;	
+			line-height: 33px;
+			width:255px;
+			float: left;
+			margin: 15px 0 22px;
+			cursor: pointer;
 		}
-		.facebok-comment .bg{ 
+		.facebok-comment .comment-bg {
+			margin: 25px 0 0 256px;
+			background: url('../images/comment-bg.png') 0 0 repeat-x;
+			height: 20px;
+		}
+		.facebok-comment .bg{
+			clear: both; 
 			background: #fff;
 			box-shadow: inset 2px 3px 1px 0 rgba(0,0,0,0.6);
 			-moz-box-shadow: inset 2px 3px 1px 0 rgba(0,0,0,0.6);
 			-webkit-box-shadow: inset 2px 3px 1px 0 rgba(0,0,0,0.6);
-			padding: 20px 60px;	
+			padding: 20px 60px;
+			display: none;	
 		}
 		.facebok-comment .bg .commetnts-head {
 			color:#248099;
 			font-size: 33px;
-			height: 70px;
+			height: 75px;
 			padding: 5px 0 0;
-			margin: 0;
-			background: url('../images/stars-blue.png') 0 55px repeat-x;
+			margin: 0 0 ;
+			background: url('../images/stars-blue.png') 0 50px repeat-x;
 			}
 
 footer {
