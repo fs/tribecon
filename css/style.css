@@ -280,6 +280,9 @@ body {
 			float: right;
 			padding: 0 0 0 7px;
 		}
+			.connect .social-networks li #fb-root {
+			  display: none;	
+			}
 
 
     .connect .connect-btn {
@@ -294,7 +297,7 @@ body {
         border-bottom: 1px dotted #1b708a;
         color: #1b708a;
         font-size: 18px;
-        margin: 14px 9px 0;
+        margin: 14px 12px 0;
         text-align: center;
         text-decoration: none;
         display: block;
@@ -406,24 +409,24 @@ footer {
   padding-bottom: 25px;
 }
   footer .sponsors {
-    /* min-height: 140px; */
+    float: left;
+	width: 500px;
     }
     footer .sponsors h4 {
-      color: #563f3f;
+      color: #5d3727;
       font-size: 36px;
       margin: 20px 0;
-      font-weight: normal;
+      font-weight: bold;
       position: relative;
       width: 270px;
       float: left;
       }
       footer .sponsors h4 .shadow {
-      text-shadow: 0 1px 0 rgba(255,255,255,1);
-
+      	text-shadow: 0 1px 0 rgba(255,255,255,1);
         }
     footer .sponsors ul {
       float: left;
-      max-width: 520px;
+      width: 230px;
       display: block;
       margin: 25px 0 0;
       padding: 0;
@@ -431,23 +434,25 @@ footer {
       footer .sponsors ul li {
         display: block;
         float: left;
-        margin-left: 80px;
+		margin: 0 0 10px;
         }
         footer .sponsors ul li a { display: inline-block; }
           footer .sponsors ul li a img { display: inline-block; }
-		   footer .sponsors ul li a img.lp { margin-top: -36px;}
+		  
   footer .bottom { 
-    clear: both; 
+    float: right; 
+	width: 300px;
     overflow: hidden;
     }
-    footer .bottom a.logo {
+    footer .bottom a.bottom-logo {
       float: left;
       display: block;
       background: url('../images/mini-logo.png') 0 0 no-repeat;
       width: 134px;
       height: 63px;
       text-indent: -9999em;
-      float: left;
+      margin-top: 10px;
+	  
     }
     /* footer .bottom ul {
       float: right;
@@ -472,16 +477,15 @@ footer {
           footer .bottom ul li.current a {} */
 		  
 		footer ul.cosnetworks {
-			float: left;
-			width:200px;
-			margin-top: 20px;
-			padding-left: 50px;
+			float: right;
+			width:120px;
+			margin-top: 25px;
 		}
 			footer ul.cosnetworks li {
-				float: left;
+				float: right;
 				list-style: none;
 				width:28px; 
-				padding-right: 10px;
+				padding-left: 28px;
 			}
 				footer ul.cosnetworks a { 
 					text-indent: -9999px;
