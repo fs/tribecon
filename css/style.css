@@ -395,15 +395,29 @@ header {
 
 .facebok-comment {
 	padding: 35px 0 0;
-	
 	display: block;
 	clear: both;
 	background: url('../images/stars.png') center 0 repeat-x transparent;
 	}
-		.facebok-comment .bg{ 
-			background: rgba(255,255,255,0.7);
-			padding: 30px;	
+		.facebok-comment h3 {
+			font-size: 33px;
+			line-height: 33px;	
 		}
+		.facebok-comment .bg{ 
+			background: #fff;
+			box-shadow: inset 2px 3px 1px 0 rgba(0,0,0,0.6);
+			-moz-box-shadow: inset 2px 3px 1px 0 rgba(0,0,0,0.6);
+			-webkit-box-shadow: inset 2px 3px 1px 0 rgba(0,0,0,0.6);
+			padding: 20px 60px;	
+		}
+		.facebok-comment .bg .commetnts-head {
+			color:#248099;
+			font-size: 33px;
+			height: 70px;
+			padding: 5px 0 0;
+			margin: 0;
+			background: url('../images/stars-blue.png') 0 55px repeat-x;
+			}
 
 footer {
   padding-bottom: 25px;
@@ -414,11 +428,11 @@ footer {
     }
     footer .sponsors h4 {
       color: #5d3727;
-      font-size: 36px;
+      font-size: 33px;
       margin: 20px 0;
       font-weight: bold;
       position: relative;
-      width: 270px;
+      width: 260px;
       float: left;
       }
       footer .sponsors h4 .shadow {
@@ -441,7 +455,7 @@ footer {
 		  
   footer .bottom { 
     float: right; 
-	width: 300px;
+	width: 270px;
     overflow: hidden;
     }
     footer .bottom a.bottom-logo {
@@ -480,6 +494,7 @@ footer {
 			float: right;
 			width:120px;
 			margin-top: 25px;
+			padding: 0;
 		}
 			footer ul.cosnetworks li {
 				float: right;
