@@ -402,7 +402,7 @@ header {
 		.facebok-comment h3 {
 			font-size: 33px;
 			line-height: 33px;
-			width:255px;
+			width:240px;
 			float: left;
 			margin: 15px 0 22px;
 			cursor: pointer;
@@ -410,7 +410,7 @@ header {
 			font-weight: normal;
 		}
 		.facebok-comment .comment-bg {
-			margin: 25px 0 0 256px;
+			margin: 25px 0 0 240px;
 			background: url('../images/comment-bg.png') 0 0 repeat-x;
 			height: 20px;
 		}
