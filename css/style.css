@@ -292,15 +292,15 @@ body {
       background: url('../images/connect.png') 0 bottom no-repeat;
       width: 118px;
       height: 55px;
+	  text-align:center;
       }
       .connect .connect-btn a {
         border-bottom: 1px dotted #1b708a;
         color: #1b708a;
         font-size: 18px;
-        margin: 14px 15px 0;
-        text-align: center;
+        margin: 14px 0 0;
         text-decoration: none;
-        display: block;
+        display: inline-block;
         line-height: 1;
         position: relative;
         z-index: 1000;
