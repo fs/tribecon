@@ -410,7 +410,7 @@ header {
 			font-weight: normal;
 		}
 		.facebok-comment .comment-bg {
-			margin: 25px 0 0 240px;
+			margin: 25px 0 0 225px;
 			background: url('../images/comment-bg.png') 0 0 repeat-x;
 			height: 20px;
 		}
@@ -426,7 +426,7 @@ header {
 		.facebok-comment .bg .commetnts-head {
 			color:#248099;
 			font-size: 33px;
-			height: 20px;
+			height: 35px;
 			margin: 0 0 ;
 			background: url('../images/stars-blue.png') 0 5px repeat-x;
 			}
