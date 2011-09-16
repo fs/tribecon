@@ -202,7 +202,7 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
 
 body {
-  background: url('../images/footer.jpg') center 0 repeat #187b95;
+  background: url('../images/footer.jpg') center 0 repeat #1978a4;
   height: 100%;
   color: #fff;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -247,7 +247,7 @@ body {
 		.connect form label {
 			float: left;
 			padding: 0 15px 0 0;
-			color:#167d98;
+			color:#1978a4;
 			font-family: 'PT Sans Narrow', sans-serif;
 			font-size: 20px;
 		}
@@ -295,8 +295,8 @@ body {
 	  text-align:center;
       }
       .connect .connect-btn a {
-        border-bottom: 1px dotted #1b708a;
-        color: #1b708a;
+        border-bottom: 1px dotted #1978a4;
+        color: #1978a4;
         font-size: 18px;
         margin: 14px 0 0;
         text-decoration: none;
