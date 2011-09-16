@@ -461,6 +461,7 @@ footer {
         display: block;
         float: left;
 		margin: 0 0 10px;
+		width: 100%;
         }
         footer .sponsors ul li a { display: inline-block; }
           footer .sponsors ul li a img { display: inline-block; }
