@@ -436,7 +436,7 @@ footer {
 }
   footer .sponsors {
     float: left;
-	width: 500px;
+	width: 600px;
     }
     footer .sponsors h4 {
       color: #5d3727;
@@ -452,7 +452,7 @@ footer {
         }
     footer .sponsors ul {
       float: left;
-      width: 230px;
+      width: 332px;
       display: block;
       margin: 25px 0 0;
       padding: 0;
@@ -460,15 +460,15 @@ footer {
       footer .sponsors ul li {
         display: block;
         float: left;
-		margin: 0 0 10px;
-		width: 100%;
+	margin: 0 0 10px;
+        width:164px;
         }
         footer .sponsors ul li a { display: inline-block; }
           footer .sponsors ul li a img { display: inline-block; }
 
   footer .bottom {
     float: right;
-	width: 270px;
+	width: 210px;
     overflow: hidden;
     }
     footer .bottom a.bottom-logo {
@@ -505,7 +505,7 @@ footer {
 
 		footer ul.cosnetworks {
 			float: right;
-			width:120px;
+			width:76px;
 			margin-top: 25px;
 			padding: 0;
 		}
@@ -513,7 +513,7 @@ footer {
 				float: right;
 				list-style: none;
 				width:28px;
-				padding-left: 28px;
+				padding-left: 8px;
 			}
 				footer ul.cosnetworks a {
 					text-indent: -9999px;
