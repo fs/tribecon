@@ -440,11 +440,11 @@ footer {
     }
     footer .sponsors h4 {
       color: #5d3727;
-      font-size: 33px;
+      font-size: 28px;
       margin: 20px 0;
       font-weight: bold;
       position: relative;
-      width: 260px;
+      width: 210px;
       float: left;
       }
       footer .sponsors h4 .shadow {
@@ -460,11 +460,12 @@ footer {
       footer .sponsors ul li {
         display: block;
         float: left;
-	margin: 0 0 10px;
-        width:164px;
+		margin: 0 0 10px 0;
+        width:160px;
+		
         }
         footer .sponsors ul li a { display: inline-block; }
-          footer .sponsors ul li a img { display: inline-block; }
+          
 
   footer .bottom {
     float: right;
